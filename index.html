@@ -1,6 +1,28 @@
-<!--
-Write your main HTML template here.
-You MUST have valid HTML code.
-Validate your HTML here: https://validator.w3.org/#validate_by_input
-Don't rename this file.
--->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <title>Bowler App</title>
+</head>
+<body>
+  <header>
+    <h1>Bowler App</h1>
+  </header>
+
+  <div class="container">
+    <h2>My Bowlers</h2>
+
+    <div id="bowlers-all" class="grid"></div>
+    <div id="bowler-single" class="grid"></div>
+  </div>
+
+  <script src="views/bowlers-all-html.js" type="module"></script>
+  <script src="views/bowler-single-html.js" type="module"></script>
+</body>
+</html>
