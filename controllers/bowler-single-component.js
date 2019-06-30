@@ -22,4 +22,8 @@ export class BowlerSingleComponent extends Component {
     return `
     document.getElementById('bowler-name').innerHTML = this.value`;
   }
+
+  goBack() {
+    return `window.history.back()`;
+  }
 }

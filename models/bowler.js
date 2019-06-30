@@ -67,15 +67,15 @@ export class Bowler {
     return this[_IMAGE];
   }
 
-  set rubber(value) {
+  set fast(value) {
     if (typeof value == 'boolean') {
       this[_FAST] = value;
     } else {
-      console.error('Sports value must be a boolean!');
+      console.error('Fast value must be a boolean!');
     }
   }
 
-  get rubber() {
+  get fast() {
     return this[_FAST];
   }
 }
