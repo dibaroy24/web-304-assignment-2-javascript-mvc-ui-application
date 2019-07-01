@@ -22,6 +22,6 @@ comp.getOneBowlerFromService(function (bowler) {
     <input type="text" id="name-input" value="${bowler.name}"
       oninput="${comp.editName()}"
     >
-    
+    <button onclick="${comp.goBack()}">Back</button>
   </article>`;
 });

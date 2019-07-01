@@ -3,24 +3,24 @@
     "id": 1,
     "name": "Kuldeep Yadav",
     "image": "kuldeep-yadav-1a.jpg",
-    "rubber": false
+    "fast": false
   },
   {
     "id": 2,
     "name": "Adam Zampa",
     "image": "adam-zampa-1a.jpg",
-    "rubber": false
+    "fast": false
   },
   {
     "id": 3,
     "name": "Kagiso Rabada",
     "image": "kagiso-rabada-0a.jpg",
-    "rubber": true
+    "fast": true
   },
   {
     "id": 4,
     "name": "Trent Boult",
     "image": "trent-boult-1a.jpg",
-    "rubber": true
+    "fast": true
   }
 ]
