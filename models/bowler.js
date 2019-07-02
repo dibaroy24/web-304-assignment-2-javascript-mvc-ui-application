@@ -73,7 +73,7 @@ export class Bowler {
     } else {
       console.error('Fast value must be a boolean!');
     }
-  }.
+  }
 
   get fast() {
     return this[_FAST];
