@@ -6,10 +6,26 @@ body {
   margin: 0;
   font-family: fantasy;
   background: #E4F8FF;
+  /* background-image: url("background_image.jpg");
+  opacity: 0.3; */
+}
+
+div::after {
+  content : "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("background_image.jpg");
+  width: 100%;
+  height: 100%;
+  opacity : 0.3;
+  z-index: -1;
 }
 
 header, footer {
-  background: #9F0000;
+  /* background: #9F0000; */
+  background-image: url("banner.jpg");
   color: #E4F8FF;
   padding: 50px;
   text-align: center;
