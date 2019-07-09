@@ -6,11 +6,9 @@ body {
   margin: 0;
   font-family: fantasy;
   background: #E4F8FF;
-  /* background-image: url("background_image.jpg");
-  opacity: 0.3; */
 }
 
-div::after {
+/* div::after {
   content : "";
   display: block;
   position: absolute;
@@ -21,18 +19,21 @@ div::after {
   height: 100%;
   opacity : 0.3;
   z-index: -1;
-}
+} */
 
 header, footer {
   /* background: #9F0000; */
   background-image: url("banner.jpg");
-  color: #E4F8FF;
+  opacity : 0.6;
+  /* color: #E4F8FF; */
+  color: #FCFCFC;
   padding: 50px;
   text-align: center;
 }
 
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
+  max-width: 36%;
   height: auto;
 }
 
