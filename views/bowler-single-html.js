@@ -22,7 +22,13 @@ comp.getOneBowlerFromService(function (bowler) {
     <input type="text" id="name-input" value="${bowler.name}"
       oninput="${comp.editName()}"
     >
-    <label for="fast-input">Is he a fast bowler?: ${bowler.fast}</label>
+    <label for="fast-input">Is he a fast bowler?:
+      <!-- <button class="yes">Yes</button> -->
+      <button onclick="${comp.isFast()}" id="demo">Yes</button>
+      <!-- <button class="no">No</button> -->
+      <button onclick="${comp.isNotFast()}">No</button>
+    </label>
+
     <button onclick="${comp.goBack()}">Back</button>
   </article>`;
 });

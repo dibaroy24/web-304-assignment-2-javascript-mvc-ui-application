@@ -18,6 +18,18 @@ export class BowlerSingleComponent extends Component {
     this.service.getOneBowlerFromJSON(template);
   }
 
+  isFast(fast) {
+    if ( fast ) {
+      // document.getElementById("demo").innerHTML = this.value;
+    // } else {
+    //   return '';
+    }
+  }
+
+  isNotFast() {
+
+  }
+
   editName() {
     return `
     document.getElementById('bowler-name').innerHTML = this.value`;
