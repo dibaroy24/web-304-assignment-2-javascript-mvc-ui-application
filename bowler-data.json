@@ -3,24 +3,28 @@
     "id": 1,
     "name": "Kuldeep Yadav",
     "image": "kuldeep-yadav-1a.jpg",
-    "fast": false
+    "style": "Slow left-arm chinaman",
+    "bbi": "6/25"
   },
   {
     "id": 2,
     "name": "Adam Zampa",
     "image": "adam-zampa-1a.jpg",
-    "fast": false
+    "style": "Right-arm legbreak",
+    "bbi": "4/43"
   },
   {
     "id": 3,
     "name": "Kagiso Rabada",
     "image": "kagiso-rabada-0a.jpg",
-    "fast": true
+    "style": "Right-arm fast",
+    "bbi": "6/16"
   },
   {
     "id": 4,
     "name": "Trent Boult",
     "image": "trent-boult-1a.jpg",
-    "fast": true
+    "style": "Left-arm fast-medium",
+    "bbi": "7/34"
   }
 ]

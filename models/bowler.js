@@ -11,7 +11,8 @@ To create "private properties" we will use symbols.
 const _ID = Symbol('id');
 const _NAME = Symbol('name');
 const _IMAGE = Symbol('image');
-const _FAST = Symbol('fast');
+const _STYLE = Symbol('style');
+const _BBI = Symbol('bbi');
 /*
 Before defining the class we will use the export keyword to export the class
 as a JS module which can be imported later.
@@ -19,11 +20,12 @@ as a JS module which can be imported later.
 Each property will be defined in the constructor method of the class.
 */
 export class Bowler {
-  constructor(id, name, image, fast) {
+  constructor(id, name, image, style, bbi) {
     this.id = id;
     this.name = name;
     this.image = image;
-    this.fast = fast;
+    this.style = style;
+    this.bbi = bbi;
   }
   /*
   We will create a setter method and a getter method for each property in the
@@ -67,15 +69,27 @@ export class Bowler {
     return this[_IMAGE];
   }
 
-  set fast(value) {
-    if (typeof value == 'boolean') {
-      this[_FAST] = value;
+  set style(value) {
+    if (typeof value == 'string') {
+      this[_STYLE] = value;
     } else {
-      console.error('Fast value must be a boolean!');
+      console.error('Style value must be a string!');
     }
   }
 
-  get fast() {
-    return this[_FAST];
+  get style() {
+    return this[_STYLE];
+  }
+
+  set bbi(value) {
+    if (typeof value == 'string') {
+      this[_BBI] = value;
+    } else {
+      console.error('BBI value must be a string!');
+    }
+  }
+
+  get bbi() {
+    return this[_BBI];
   }
 }

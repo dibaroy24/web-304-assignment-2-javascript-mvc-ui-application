@@ -42,7 +42,7 @@ export class BowlerService extends AjaxService {
       bowlers array.
       */
       for (let bowler of bowlerData) {
-        let bowlerProps = [bowler.id, bowler.name, bowler.image, bowler.fast];
+        let bowlerProps = [bowler.id, bowler.name, bowler.image, bowler.style, bowler.bbi];
 
         bowlers[bowlers.length] = new Bowler(...bowlerProps);
       }
