@@ -23,6 +23,10 @@ export class BowlerSingleComponent extends Component {
     document.getElementById('bowler-name').innerHTML = this.value`;
   }
 
+  myBio() {
+    return `document.getElementById('bowler-bio').innerHTML = this.value`;
+  }
+
   goBack() {
     return `window.history.back()`;
   }
