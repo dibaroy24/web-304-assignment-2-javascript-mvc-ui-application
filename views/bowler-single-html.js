@@ -24,10 +24,8 @@ comp.getOneBowlerFromService(function (bowler) {
     >
     <label for="style-input">Bowling style: ${bowler.style}</label>
     <label for="bbi-input">Best bowling figures in an innings: ${bowler.bbi}</label>
-    <label>
-      <button onclick="${comp.myBio()}">See My Bio</button>
-      <p id="bowler-bio"></p>
-      <button onclick="${comp.goBack()}">Back</button>
-    </label>
+    <button onclick="${comp.myBio(bowler.bio)}">See My Bio</button>
+    <p id="bowler-bio"></p>
+    <button onclick="${comp.goBack()}">Back</button>
   </article>`;
 });
