@@ -26,8 +26,6 @@ comp.getOneBowlerFromService(function (bowler) {
     <label for="bbi-input">Best bowling figures in an innings: ${bowler.bbi}</label>
     <button onclick="${comp.myBio(bowler.bio)}">See My Bio</button>
     <p id="bowler-bio"></p>
-    <video id="bowler-video" width="360"></video>
-    <button onclick="${comp.playVideo(bowler.bowlvideo)}">See My Wicket Compilation</button>
     <button onclick="${comp.goBack()}">Back</button>
   </article>`;
 });

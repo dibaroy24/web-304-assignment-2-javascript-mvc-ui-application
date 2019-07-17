@@ -14,7 +14,6 @@ const _IMAGE = Symbol('image');
 const _STYLE = Symbol('style');
 const _BBI = Symbol('bbi');
 const _BIO = Symbol('bio');
-const _BOWLVIDEO = Symbol('bowlvideo');
 /*
 Before defining the class we will use the export keyword to export the class
 as a JS module which can be imported later.
@@ -22,7 +21,7 @@ as a JS module which can be imported later.
 Each property will be defined in the constructor method of the class.
 */
 export class Bowler {
-  constructor(id, name, image, style, bbi, bio, bowlvideo) {
+  constructor(id, name, image, style, bbi, bio) {
     this.id = id;
     this.name = name;
     this.image = image;
@@ -106,17 +105,5 @@ export class Bowler {
 
   get bio() {
     return this[_BIO];
-  }
-
-  set bowlvideo(value) {
-    if (typeof value == 'string') {
-      this[_BOWLVIDEO] = value;
-    } else {
-      console.error('Bowling Video value must be a string!');
-    }
-  }
-
-  get bowlvideo() {
-    return this[_BOWLVIDEO];
   }
 }
