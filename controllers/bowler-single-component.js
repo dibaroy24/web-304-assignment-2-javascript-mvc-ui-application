@@ -27,6 +27,10 @@ export class BowlerSingleComponent extends Component {
     return `document.getElementById('bowler-bio').innerHTML = '${bio}'`;
   }
 
+  playVideo(bowlvideo) {
+    return `document.getElementById('bowler-video').innerHTML = '${bowler.bowlvideo}'`;
+  }
+
   goBack() {
     return `window.history.back()`;
   }
