@@ -24,11 +24,14 @@ body {
 header, footer {
   /* background: #9F0000; */
   background-image: url("banner.jpg");
-  opacity : 0.6;
   /* color: #E4F8FF; */
   color: #FCFCFC;
-  padding: 50px;
   text-align: center;
+}
+
+.tone {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
 }
 
 img {
